@@ -1,0 +1,18 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../Pronblema_4_CV_UART- TX module.srcs/sources_1/new/MUXx.v" \
+"../../../../Pronblema_4_CV_UART- TX module.srcs/sources_1/new/TOP.v" \
+"../../../../Pronblema_4_CV_UART- TX module.srcs/sources_1/new/crc_calc.v" \
+"../../../../Pronblema_4_CV_UART- TX module.srcs/sources_1/new/ct_BaudRate.v" \
+"../../../../Pronblema_4_CV_UART- TX module.srcs/sources_1/new/ct_bitsel1.v" \
+"../../../../Pronblema_4_CV_UART- TX module.srcs/sources_1/new/equal.v" \
+"../../../../Pronblema_4_CV_UART- TX module.srcs/sources_1/new/equal20b.v" \
+"../../../../Pronblema_4_CV_UART- TX module.srcs/sources_1/new/reg0.v" \
+"../../../../Pronblema_4_CV_UART- TX module.srcs/sources_1/new/toggle_ff.v" \
+"../../../../Pronblema_4_CV_UART- TX module.srcs/sim_1/new/sim.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
